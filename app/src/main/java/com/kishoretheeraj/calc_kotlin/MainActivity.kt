@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        //Numbers
+        //Number
         binding.btn00.setOnClickListener { appendClick(true, "00") }
         binding.btn0.setOnClickListener { appendClick(true, "0") }
         binding.btn1.setOnClickListener { appendClick(true, "1") }
